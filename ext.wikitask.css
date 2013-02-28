@@ -1,0 +1,39 @@
+#wikitask-search-results {
+	z-index: 1;
+	position: absolute;
+}
+
+.wikitask-tasks {
+	vertical-align: top;
+}
+
+.wikitask-dialog {
+	cursor:pointer;
+	display: none;
+	padding:15px;
+	padding-top: 0;
+	position:absolute;
+	z-index:1;
+	font-size: 100%;
+}
+
+.wikitask-tasks #newtask #controls {
+	padding-left: 0.3em;
+}
+
+.wikitask-tasks #newtask #cat {
+	width: 6em;
+}
+
+.wikitask-tasks #newtask #type {
+	width: 6em;
+}
+
+.wikitask-tasks #newtask #title {
+	width: 20.0em;
+	height: 3em;
+}
+
+.wikitask-tasks #newtask #daysTillDue {
+	width: 2.5em;
+}
